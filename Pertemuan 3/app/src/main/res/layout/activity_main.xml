@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/length_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Input Panjang"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/width_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Input Lebar"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/height_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Input Tinggi"
+        android:inputType="numberDecimal" />
+
+    <Button
+        android:id="@+id/calculate_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hitung" />
+
+    <TextView
+        android:id="@+id/result_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="16dp"
+        android:text="Hasil" />
+
+    <Button
+        android:id="@+id/sample_fragment_button"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:text="Sample Fragment" />
+
+    <FrameLayout
+        android:id="@+id/fragmentContainer"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+</LinearLayout>
