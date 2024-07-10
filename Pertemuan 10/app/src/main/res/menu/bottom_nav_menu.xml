@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_all_photos"
+        android:icon="@drawable/all"
+        android:title="All Photos"/>
+    <item
+        android:id="@+id/nav_favorite_photos"
+        android:icon="@drawable/fav"
+        android:title="Favorite"/>
+</menu>
